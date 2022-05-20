@@ -1,10 +1,14 @@
 //import logo from './logo.svg';
-import './App.css';
-import {useState} from 'react'
+//import './App.css';
+//import {useState} from 'react'
+import Navbar from './components-navbar/Navbar'
+import './components-navbar/app.css'
+import Banner from './Banner/Banner';
+import './components-navbar/app.css'
 
-function App() {
-  const [toDos,setTodos]=useState([])
-  const [toDo,setTodo]=useState('')
+ function App() {
+//   const [toDos,setTodos]=useState([])
+//   const [toDo,setTodo]=useState('')
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -22,11 +26,11 @@ function App() {
     //     </a>
     //   </header>
 
-
+    
 
 
     //</div>
-<div className="app">
+/* <div className="app">
       <div className="mainHeading">
         <h1>ToDo List</h1>
       </div>
@@ -69,8 +73,11 @@ function App() {
               return null
             })}
       </div>
-    </div>
-
+    </div> */
+<div>
+    <Navbar/>
+    <Banner/>
+</div>
 
 
 
