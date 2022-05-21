@@ -5,6 +5,7 @@ import Navbar from './components-navbar/Navbar'
 import './components-navbar/app.css'
 import Banner from './Banner/Banner';
 import './components-navbar/app.css'
+import Rowpost from './components/ropost/rowpost';
 
  function App() {
 //   const [toDos,setTodos]=useState([])
@@ -77,6 +78,7 @@ import './components-navbar/app.css'
 <div>
     <Navbar/>
     <Banner/>
+    <Rowpost></Rowpost>
 </div>
 
 
